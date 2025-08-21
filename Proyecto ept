@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mejorar el Rendimiento Académico y Físico</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #004aad, #0073e6);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #003580;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .contenedor {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .tarjeta {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .tarjeta:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #004aad;
+      margin-top: 0;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .imagen {
+      max-width: 100%;
+      border-radius: 15px;
+      margin: 15px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      background: #003580;
+      color: white;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+    .faq {
+      background: #eef4ff;
+      border-left: 5px solid #004aad;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+    .faq h3 {
+      margin-top: 0;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📘 Mejorar el Rendimiento Académico y Físico 💪</h1>
+    <p>Consejos prácticos para estudiantes y deportistas</p>
+  </header>
+
+  <nav>
+    <a href="#academico">Rendimiento Académico</a>
+    <a href="#fisico">Rendimiento Físico</a>
+    <a href="#faq">Preguntas Frecuentes</a>
+  </nav>
+
+  <div class="contenedor">
+    <!-- Rendimiento Académico -->
+    <div class="tarjeta" id="academico">
+      <h2>📖 40 Recomendaciones para Mejorar el Rendimiento Académico</h2>
+      <img src="https://img.freepik.com/free-photo/young-student-learning-library_23-2149211045.jpg" alt="Estudiar con concentración" class="imagen">
+      <ul>
+        <li>Organiza un horario de estudio fijo.</li>
+        <li>Duerme al menos 8 horas diarias.</li>
+        <li>Haz resúmenes y mapas conceptuales.</li>
+        <li>Divide el tiempo en sesiones de 50 minutos con pausas cortas.</li>
+        <li>Evita distracciones como el celular al estudiar.</li>
+        <li>Estudia en un lugar limpio y ordenado.</li>
+        <li>Revisa tus apuntes diariamente.</li>
+        <li>Participa en clases y haz preguntas.</li>
+        <li>Practica ejercicios de memoria.</li>
+        <li>Lee en voz alta para reforzar el aprendizaje.</li>
+        <li>Haz autoevaluaciones después de estudiar.</li>
+        <li>Utiliza técnicas como Pomodoro.</li>
+        <li>Estudia primero los temas más difíciles.</li>
+        <li>Haz ejercicios prácticos y ejemplos.</li>
+        <li>Asocia lo aprendido con ejemplos reales.</li>
+        <li>Forma grupos de estudio productivos.</li>
+        <li>Enséñale a alguien más lo que aprendiste.</li>
+        <li>Escucha música instrumental para concentrarte.</li>
+        <li>Mantén una buena alimentación.</li>
+        <li>Toma agua mientras estudias.</li>
+        <li>Evita estudiar acostado.</li>
+        <li>Repasa antes de dormir para reforzar la memoria.</li>
+        <li>No dejes todo para el último momento.</li>
+        <li>Usa colores y diagramas para recordar mejor.</li>
+        <li>Identifica tu mejor horario de concentración.</li>
+        <li>Haz pausas activas de 5 minutos.</li>
+        <li>Plantea objetivos de estudio claros.</li>
+        <li>Premia tus logros con descansos.</li>
+        <li>Aprende a gestionar el estrés.</li>
+        <li>Mantén una actitud positiva hacia el aprendizaje.</li>
+        <li>Evita multitareas mientras estudias.</li>
+        <li>Practica técnicas de respiración para la concentración.</li>
+        <li>Reduce el consumo excesivo de redes sociales.</li>
+        <li>Establece prioridades diarias.</li>
+        <li>Lee libros adicionales para reforzar conocimientos.</li>
+        <li>Revisa exámenes anteriores para practicar.</li>
+        <li>No estudies solo de memoria, comprende lo que lees.</li>
+        <li>Divide las tareas grandes en partes pequeñas.</li>
+        <li>Utiliza aplicaciones educativas para aprender mejor.</li>
+        <li>Haz un plan semanal de repaso.</li>
+      </ul>
+    </div>
+
+    <!-- Rendimiento Físico -->
+    <div class="tarjeta" id="fisico">
+      <h2>💪 15 Recomendaciones para Mejorar el Rendimiento Físico</h2>
+      <img src="https://img.freepik.com/free-photo/fit-man-doing-core-exercise_23-2148515433.jpg" alt="Hombre haciendo ejercicio" class="imagen">
+      <ul>
+        <li>Realiza al menos 30 minutos de actividad física diaria.</li>
+        <li>Combina ejercicios de fuerza con ejercicios cardiovasculares.</li>
+        <li>Haz estiramientos antes y después del ejercicio.</li>
+        <li>Establece una rutina progresiva y constante.</li>
+        <li>Incluye yoga o meditación para la concentración.</li>
+        <li>Duerme entre 7 y 9 horas para la recuperación muscular.</li>
+        <li>Aliméntate de forma balanceada.</li>
+        <li>Mantente hidratado todo el día.</li>
+        <li>Haz pausas activas si estudias mucho tiempo sentado.</li>
+        <li>Realiza chequeos médicos regularmente.</li>
+        <li>Calienta antes de entrenar intensamente.</li>
+        <li>No ignores las señales de dolor o fatiga.</li>
+        <li>Establece metas realistas y alcanzables.</li>
+        <li>Utiliza ropa y calzado adecuado para cada deporte.</li>
+        <li>Descansa al menos un día a la semana para recuperarte.</li>
+      </ul>
+    </div>
+
+    <!-- Preguntas Frecuentes -->
+    <div class="tarjeta" id="faq">
+      <h2>❓ Preguntas Frecuentes</h2>
+      <div class="faq">
+        <h3>📌 ¿Por qué es importante hacer estas actividades?</h3>
+        <p>Porque mejoran la concentración, la memoria y la disciplina, lo que se traduce en mejores resultados académicos y físicos.</p>
+      </div>
+      <div class="faq">
+        <h3>📌 ¿En qué nos beneficia el ejercicio físico?</h3>
+        <p>El ejercicio fortalece el cuerpo, reduce el estrés, mejora el estado de ánimo y aumenta la energía para estudiar y realizar actividades diarias.</p>
+      </div>
+      <div class="faq">
+        <h3>📌 ¿Cuántas horas debo estudiar al día?</h3>
+        <p>Depende de cada persona, pero lo recomendable son entre 2 y 4 horas de estudio efectivo distribuidas en el día.</p>
+      </div>
+      <div class="faq">
+        <h3>📌 ¿Qué pasa si no descanso lo suficiente?</h3>
+        <p>La falta de sueño reduce la concentración, debilita la memoria y afecta el rendimiento tanto académico como físico.</p>
+      </div>
+      <div class="faq">
+        <h3>📌 ¿Cuántas veces por semana debo hacer ejercicio?</h3>
+        <p>Lo ideal es realizar actividad física al menos 4 a 5 veces por semana, alternando fuerza y cardio.</p>
+      </div>
+      <div class="faq">
+        <h3>📌 ¿Es mejor estudiar solo o en grupo?</h3>
+        <p>Ambos son útiles. Estudiar solo mejora la concentración, mientras que en grupo se comparten ideas y se resuelven dudas.</p>
+      </div>
+      <div class="faq">
+        <h3>📌 ¿Qué debo comer antes de estudiar o hacer ejercicio?</h3>
+        <p>Se recomiendan comidas ligeras ricas en frutas, cereales integrales y proteínas para tener energía sin sentir pesadez.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 - Sitio web educativo para mejorar el rendimiento académico y físico</p>
+  </footer>
+</body>
+</html>
